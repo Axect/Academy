@@ -22,3 +22,4 @@
 
 * [국민대학교](http://ipc.univer.ac/kmu/listByScore.htm?widthout_score=N&highschool_id=&highschool_sido=&highschool_googun=&highschool_type=&highschool_nm=&status=%EA%B3%A0%EA%B5%90%EC%A1%B8%EC%97%85%EC%98%88%EC%A0%95&interestedIpsiType=&interested%5B%5D=&grade=)
 
+

@@ -16,10 +16,7 @@
 
 * ~~시립대(교과) (3합 8) (신소재 1.49)~~
 * ~~중앙대~~
-* ~~숭실대 (2합 7)~~
-
-### 하향 후보
-
-* [국민대학교](http://ipc.univer.ac/kmu/listByScore.htm?widthout_score=N&highschool_id=&highschool_sido=&highschool_googun=&highschool_type=&highschool_nm=&status=%EA%B3%A0%EA%B5%90%EC%A1%B8%EC%97%85%EC%98%88%EC%A0%95&interestedIpsiType=&interested%5B%5D=&grade=)
-
+* 숭실대 (2합 7)
+* 상명대
+* 단국대
 

@@ -142,11 +142,11 @@ A2. $x_1 = 1,\, x_2 = -1$에 대해 $x_1 \neq x_2$이지만, $f(x_1) = 1 = f(x_2
 
 \vspace{5cm}
 
-2. 함수 $f: \mathbb{R} \rightarrow \mathbb{R}$와 $g: \mathbb{R} \rightarrow \mathbb{R}$가 각각 $f(x) = x^2 + 2$, \hspace{0.1cm} $g(x) = 2x - 1$로 정의되었을 때, 함수 $f \circ g$와 $g \circ f$를 구하여라.
+2. 함수 $f: \mathbb{R} \rightarrow \mathbb{R}$와 $g: \mathbb{R} \rightarrow \mathbb{R}$이 각각 $f(x) = x^2 + 2$, \hspace{0.1cm} $g(x) = 2x - 1$로 정의되었을 때, 함수 $f \circ g$와 $g \circ f$를 구하여라.
 
 \vspace{3cm}
 
-3. [인하대학교 2015 논술] 함수 $f: \mathbb{R} \rightarrow \mathbb{R}$가 다음과 같을 때, 함수 $(f \circ f)(x)$의 그래프를 그리시오.
+3. [인하대학교 2015 논술] 함수 $f: \mathbb{R} \rightarrow \mathbb{R}$이 다음과 같을 때, 함수 $(f \circ f)(x)$의 그래프를 그리시오.
 \begin{equation*}
     f(x) = 
     \begin{cases}

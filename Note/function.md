@@ -8,6 +8,9 @@ subtitle: "For First-year Highschool Students"
 titlepage: true
 ...
 
+
+\newpage\null\thispagestyle{empty}\newpage
+
 # Basic Concepts of Function (함수의 기본 개념들)
 
 ## Notation (표기법)
@@ -152,5 +155,52 @@ A2. $x_1 = 1,\, x_2 = -1$에 대해 $x_1 \neq x_2$이지만, $f(x_1) = 1 = f(x_2
     \begin{cases}
         -x-1 & (x < 0) \\
         2x-1 & (x \geq 0)
+    \end{cases}
+\end{equation*}
+
+\pagebreak
+
+# Inverse Function (역함수)
+
+## Definition
+
+함수 $f: X \rightarrow Y$가 일대일 대응일 때, 다음 조건을 만족하는 함수 $f^{-1}: Y \rightarrow X$를 $f$의 역함수라고 한다.
+
+\begin{center}
+    $f(x) = y$와 $f^{-1}(y) = x$는 서로에게 필요충분조건이다.
+\end{center}
+
+실제로 많은 문제에서는 위의 조건보다 다음 조건을 선호한다.
+
+\begin{center}
+    $f^{-1}(f(x)) = x = f(f^{-1}(x)))$
+\end{center}
+
+## Method (방법)
+
+역함수를 구할 때는 보통 역함수가 원래 함수의 직선 $y=x$에 대한 대칭임을 사용한다.
+(즉, $x$와 $y$를 서로 바꾼다.)
+
+### Examples
+
+1. 함수 $f(x) = 2x - 1$의 역함수는 $x = 2y - 1$이므로 $\displaystyle y = \frac{x+1}{2}$. 즉, $\displaystyle f^{-1}(x) = \frac{x+1}{2}$ 이다.
+
+2. 함수 $f(x) = x^2$은 원래 일대일 대응이 아니므로 역함수를 가지지 못하지만, 정의역을 $\{x | x \geq 0 \}$으로 제한하면 일대일 대응이므로 역함수를 가지게 된다. 이때의 역함수는 $f^{-1}(x) = \sqrt{x}$이다.
+
+3. 합성함수 $g \circ f$의 역함수는 $f^{-1} \circ g^{-1}$이다. (대입해보면 자명하다.)
+
+### Problems
+
+1. 일대일 대응 함수 $f$의 역함수 $f^{-1}$ 역시 일대일 대응임을 보이시오.
+
+\vspace{1cm}
+
+2. 함수 $f: \mathbb{R} \rightarrow \mathbb{R}$가 다음과 같이 정의되었을 때, 이 함수가 역함수를 가지는지 서술하고 역함수를 가진다면 그래프를 그리시오.
+\begin{equation*}
+    f(x) =
+    \begin{cases}
+        -|x - 1| & (x < 1) \\
+        \\
+        \displaystyle \frac{1}{2}x - \frac{1}{2} & (x \geq 1)
     \end{cases}
 \end{equation*}

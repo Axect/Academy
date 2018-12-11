@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html class="ea-execuated"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>High1_Science.md</title>
+    <link rel="stylesheet" href="High1_Science_files/solarized_dark.css">
+    <link rel="stylesheet" href="High1_Science_files/markdown.css">
+    <script src="High1_Science_files/highlight.js"></script>
+    <script src="High1_Science_files/marked.js"></script>
+    <script src="High1_Science_files/TweenLite.js"></script>
+    <script src="High1_Science_files/base64.js"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            showProcessingMessages: false,
+            messageStyle: "none",
+            "HTML-CSS": {
+                preferredFont: "STIX",
+                availableFonts: ["STIX", "TeX"],
+                imageFont: null
+            }
+        });
+    </script>
+<style></style><style type="text/css">/*
+ * contextMenu.js v 1.4.0
+ * Author: Sudhanshu Yadav
+ * s-yadav.github.com
+ * Copyright (c) 2013 Sudhanshu Yadav.
+ * Dual licensed under the MIT and GPL licenses
+**/
+
+.iw-contextMenu {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.10);
+    border: 1px solid #c8c7cc;
+    border-radius: 11px;
+    display: none;
+    z-index: 1000000132;
+    max-width: 300px;
+}
+
+.iw-cm-menu {
+    background: #fff;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.iw-curMenu {
+}
+
+.iw-cm-menu li {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+    list-style: none;
+    padding: 10px;
+    padding-right: 20px;
+    border-bottom: 1px solid #c8c7cc;
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+    margin: 0;
+    line-height: inherit;
+}
+
+.iw-cm-menu li:first-child {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+.iw-cm-menu li:last-child {
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom: none;
+}
+
+.iw-mOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #FFF;
+    opacity: .5;
+}
+
+.iw-contextMenu li.iw-mDisable {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.iw-mSelected {
+    background-color: #F6F6F6;
+}
+
+.iw-cm-arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #000;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -5px;
+}
+
+.iw-mSelected > .iw-cm-arrow-right {
+}
+
+/*context menu css end */</style><style type="text/css">@-webkit-keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+
+@keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}</style><style type="text/css">/* This is not a zero-length file! */</style></head>
+<body cz-shortcut-listen="true">
+    <section class="container">
+        <article id="js-markdown" class="markdown-content"><p></p><h1 style="text-align:center"> <a style="position: relative;" href="#FFD477D9967F4D7D81EC118679006910" id="FFD477D9967F4D7D81EC118679006910"></a>고등 과학 진도 계획</h1><p></p>
+<p style="text-align:right"><b>Tae Geun Kim</b> <br>
+2018.12.11</p>
+
+<h2 id="1.-목차">1. 목차</h2>
+<ol>
+<li><strong>물질과 규칙성</strong><ol>
+<li>물질의 규칙과 결합<ol>
+<li>우주의 시작과 원소의 생성 (p.12)</li>
+<li>지구와 생명체를 이루는 원소의 생성 (p.24)</li>
+<li>원소들의 주기성 (p.32)</li>
+<li>원소들의 화학 결합과 물질의 생성 (p.44)</li>
+</ol>
+</li>
+<li>자연의 구성 물질<ol>
+<li>지각과 생명체 구성 물질의 결합 규칙성 (p.62)</li>
+<li>생명체 구성 물질의 형성 (p.68)</li>
+<li>신소재의 개발과 활용 (p.74)</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong>시스템과 상호 작용</strong><ol>
+<li>역학적 시스템<ol>
+<li>중력과 역학적 시스템 (p.90)</li>
+<li>역학적 시스템과 안전 (p.98)</li>
+</ol>
+</li>
+<li>지구 시스템<ol>
+<li>지구시스템의 에너지와 물질 순환 (p.112)</li>
+<li>지권의 변화 (p.122)</li>
+</ol>
+</li>
+<li>생명 시스템<ol>
+<li>생명 시스템의 기본 단위 (p.138)</li>
+<li>생명 시스템에서의 화학 반응 (p.148)</li>
+<li>생명 시스템에서 정보의 흐름 (p.156)</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong>변화와 다양성</strong><ol>
+<li>화학 변화<ol>
+<li>산화 환원 반응 (p.170)</li>
+<li>산과 염기 (p.178)</li>
+<li>중화 반응 (p.188)</li>
+</ol>
+</li>
+<li>생물 다양성과 유지 <ol>
+<li>지질 시대의 환경과 생물 (p.202)</li>
+<li>자연 선택과 생물의 진화 (p.210)</li>
+<li>생물 다양성과 보전 (p.220)</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong>환경과 에너지</strong><ol>
+<li>생태계와 환경<ol>
+<li>생태계 구성 요소와 환경 (p.236)</li>
+<li>생태계 평형 (p.244)</li>
+<li>지구 환경 변화와 인간 생활 (p.254)</li>
+<li>에너지의 전환과 효율적 이용 (p.264)</li>
+</ol>
+</li>
+<li>발전과 신재생 에너지<ol>
+<li>전기 에너지의 생산과 수송 (p.280)</li>
+<li>태양 에너지 생성과 전환 (p.290)</li>
+<li>미래를 위한 에너지 (p.296)</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="2.-방학-진도-계획표">2. 방학 진도 계획표</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">날짜</th>
+<th style="text-align:center">진도</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">2018.12.06</td>
+<td style="text-align:center">우주의 시작과 원소의 생성 </td>
+</tr>
+<tr>
+<td style="text-align:center">2018.12.13</td>
+<td style="text-align:center">지구와 생명체를 이루는 원소의 생성</td>
+</tr>
+<tr>
+<td style="text-align:center">2018.12.20</td>
+<td style="text-align:center">원소들의 주기성</td>
+</tr>
+<tr>
+<td style="text-align:center">2018.12.27</td>
+<td style="text-align:center">원소들의 화학 결합과 물질의 생성 및 시험 출제</td>
+</tr>
+<tr>
+<td style="text-align:center">2018.01.03</td>
+<td style="text-align:center">복습시험 풀이</td>
+</tr>
+<tr>
+<td style="text-align:center">2018.01.10</td>
+<td style="text-align:center">지각과 생명체 구성 물질의 결합 규칙성 + 생명체 구성 물질의 형성</td>
+</tr>
+<tr>
+<td style="text-align:center">2018.01.17</td>
+<td style="text-align:center">신소재의 개발과 활용 및 시험 출제</td>
+</tr>
+<tr>
+<td style="text-align:center">2018.01.24</td>
+<td style="text-align:center">복습시험 풀이</td>
+</tr>
+<tr>
+<td style="text-align:center">2018.01.31</td>
+<td style="text-align:center">중력과 역학적 시스템</td>
+</tr>
+<tr>
+<td style="text-align:center">2018.02.07</td>
+<td style="text-align:center">중력과 역학적 시스템</td>
+</tr>
+<tr>
+<td style="text-align:center">2018.02.14</td>
+<td style="text-align:center">역학적 시스템과 안전</td>
+</tr>
+<tr>
+<td style="text-align:center">2018.02.21</td>
+<td style="text-align:center">역학적 시스템과 안전 및 시험 출제</td>
+</tr>
+<tr>
+<td style="text-align:center">2018.02.28</td>
+<td style="text-align:center">복습시험 풀이</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3.-진도-계획과-2015-개정-고등과학에-대한-설명">3. 진도 계획과 2015 개정 고등과학에 대한 설명</h2>
+<p>2015 개정 고등과학은 2018년에 고1이 되는 학생들부터 배우게 된 최신 교육과정 과학입니다.
+앞서 배웠던 2009 개정 과학과는 틀은 같이 하지만 세부적인 내용이 많이 바뀌어서 고교 교사들도 혼선을 빚고 있는 과정이기도 합니다.
+전체적인 난이도는 낮추겠다고 공언했지만 오히려 기초 설명들을 빼버리거나 뒤로 미루고 설명한 것들이 많아서 학생들의 이해는 더욱 어려워졌습니다.
+대표적인 예로 <em>중력과 역학시스템</em> 단원이 있는데 분명 가속도를 다루지만, 속도와 가속도는 고등학교 2학년 과정인 물리1에서 처음 등장하게 됩니다.
+따라서 기초에 대한 아무런 보충 설명 없이 진도를 나가게 되면 학생들의 과학에 대한 흥미 및 성적은 급격하게 하락할 것입니다.</p>
+<p>2009 개정 교육과정과의 공통점은 상대적으로 높은 난이도인 물리파트가 1학기에 몰려 있다는 것입니다.
+오히려 2학기에는 화학, 생물, 공학의 내용이 나오므로 부담이 적지만 우주론 및 역학적 시스템이 나오는 1학기는 이해하는 것만도 상당히 힘듭니다.</p>
+<p>이런 구조 상 방학 때는 많은 내용을 다루기 보다는 완벽한 이해에 초점을 두고 진도를 나가는 것을 계획하게 되었습니다.</p>
+<p>위의 방학 진도 계획표에 의하면 2월 28일부로 통합과학의 모든 물리파트가 끝이 나게 됩니다.
+이후의 과학은 암기가 주가 될 화학과 생물 내용이라 부담이 적으며 적절한 코칭만 있다면 별로 어렵지 않습니다.
+따라서 이후는 특강형식으로 진행하는 식으로 해도 무리는 없을 것으로 예상 됩니다.</p>
+</article>
+    </section>
+<script src="High1_Science_files/index.js"></script>
+
+
+</body></html>
